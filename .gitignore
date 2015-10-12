@@ -30,3 +30,4 @@ node_modules
 # IDEA
 .idea
 .git
+bower_components

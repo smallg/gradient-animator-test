@@ -1,0 +1,27 @@
+{
+  "name": "gradient-animator-test",
+  "version": "0.0.1",
+  "homepage": "https://github.com/smallg/gradient-animator-test",
+  "authors": [
+    "smallg <gwpxjb@163.com>"
+  ],
+  "description": "test css3 animation",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "css3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
