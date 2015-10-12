@@ -1,0 +1,67 @@
+section:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+section .content > img {
+    float: left;
+    margin-right: 30px;
+}
+
+.button-wrapper{
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+body.opr-texiao-rotateY {
+    animation: page_rotateY 7s ease;
+    -webkit-animation: page_rotateY 7s ease
+}
+
+@keyframes page_rotateY {
+    from {
+        transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg)
+    }
+    29%, 71% {
+        transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg)
+    }
+    to {
+        transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg)
+    }
+}
+
+@-webkit-keyframes page_rotateY {
+    from {
+        transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg)
+    }
+    29%, 71% {
+        transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg)
+    }
+    to {
+        transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg)
+    }
+}

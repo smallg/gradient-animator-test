@@ -1,0 +1,53 @@
+section:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+section .content > img {
+    float: left;
+    margin-right: 30px;
+}
+
+.button-wrapper {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+body.opr-texiao-rotate {
+    animation: page_rotate 4s ease;
+    -webkit-animation: page_rotate 4s ease
+}
+
+@keyframes page_rotate {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes page_rotate {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg)
+    }
+}
