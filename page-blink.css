@@ -1,0 +1,46 @@
+section:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+section .content > img {
+    float: left;
+    margin-right: 30px;
+}
+
+.button-wrapper {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+body.opr-texiao-blink {
+    animation: page_blink 1.3s ease 0s 5;
+    -webkit-animation: page_blink 1.3s ease 0s 5
+}
+
+@keyframes page_blink {
+    40%, from {
+        opacity: 1;
+        background: #fff;
+    }
+    45%, 55% {
+        opacity: 0;
+        background: #9aff00;
+    }
+    60%, to {
+        opacity: 1;
+        background: #fff;
+    }
+}
+
+@-webkit-keyframes page_blink {
+    40%, from {
+        opacity: 1
+    }
+    45%, 55% {
+        opacity: 0
+    }
+    60%, to {
+        opacity: 1
+    }
+}
