@@ -1,0 +1,32 @@
+.box{
+    display:-webkit-box;
+    -webkit-box-pack:center;
+}
+.s-box{
+    text-align:center;
+}
+.content{
+    width:149px;
+    height:149px;
+    margin:10px;
+    background-image:url(../lib/images/r.jpg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+.s1:hover{
+    background-position:0 -1800px;
+}
+.s2:hover{
+    -webkit-animation:movedown 500ms forwards;
+}
+.s3:hover{
+    -webkit-animation:movedown 500ms steps(12) forwards;
+}
+@-webkit-keyframes movedown{
+    0%{
+        background-position:0 0;
+    }
+    100%{
+        background-position:0 -1800px;
+    }
+}
